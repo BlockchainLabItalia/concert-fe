@@ -1,0 +1,112 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spid.con-cert.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>lnZAf8DYWe3I2tt/SrpImFkG/ZBR0/C0D75cLC+kon8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cZIvpt0SSjIX8AXBGxkUQYPMHVikFoy5IVJkIeqxbuBtQnjt3liAE642L8f8W4GKy1C30lqEnt0b
+K8LGepP+fAW6Sw8XCkFNyado3x3FLwX81rJnx8C35LKBXdSrqTH1b3nWHzw+0G5Y+4MEdErt4oP6
+whymHD79bLfC0COozpO6ZsKm9Q93jX3sl1CtXWaEC8vHOoH6Wnw9boH9RfDEauWGsAXB/5vtNrJQ
+txU/J9kCv41bKq7PvgTKbgIOviq6mxW+wyUzDIPQxZh5qBwvDFFTEvXm+pRwxdPvAHOM6Etz228k
+67+uhALRYVIgyZW9vuIlDFnn/miybU6khh6K5w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zjtms1aLl6KAs0KsQ9EGgi8LQMDtIC5wlcrUuwsgzZwjl8AvR3DoaPEvHIgT/7SeaElm3rxhSs9m
+yxDn6VJFCdLcJKInXgGuxpaqbQYF1XILZNEEQ+6T4BdUhZQ84sqTlul6YGsZinEw0+VaAb3b3eJW
+P6vFFqZnrgAGKCnU0ncWxGrMBQq3C9ANZSR1HdFBUxEmgymB9X7CR5NtYgCFu2a+en8upFPk1ekG
+ED+qcUEAbIrv6YhRxDCrsbexMKIPrEgVamvf5fm+jMD09G5hJsgUvWMr7htFXRh0KynKg9E9NRUZ
+IsoilK8tGEaBqbtf9iXPWM23Q9P/K5ifZJiPRQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID8TCCAtmgAwIBAgIUbjGWBdbGaw+pHjmqQ00ZGj/sA2cwDQYJKoZIhvcNAQELBQAwgYcxCzAJ
+BgNVBAYTAklUMRAwDgYDVQQIDAdDb3NlbnphMRAwDgYDVQQHDAdDb3NlbnphMRAwDgYDVQQKDAdD
+b25DZXJ0MRwwGgYDVQQDDBNodHRwczovL2Nvbi1jZXJ0Lml0MSQwIgYJKoZIhvcNAQkBFhVpbmZv
+QGJsb2NrY2hhaW5sYWIuaXQwHhcNMjEwMzE4MTU0NzAxWhcNMzEwMzE2MTU0NzAxWjCBhzELMAkG
+A1UEBhMCSVQxEDAOBgNVBAgMB0Nvc2VuemExEDAOBgNVBAcMB0Nvc2VuemExEDAOBgNVBAoMB0Nv
+bkNlcnQxHDAaBgNVBAMME2h0dHBzOi8vY29uLWNlcnQuaXQxJDAiBgkqhkiG9w0BCQEWFWluZm9A
+YmxvY2tjaGFpbmxhYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM47ZrNWi5ei
+gLNCrEPRBoIvC0DA7SAucJXK1LsLIM2cI5fAL0dw6GjxLxyIE/+0nmhJZt68YUrPZssQ5+lSRQnS
+3CSiJ14BrsaWqm0GBdVyC2TRBEPuk+AXVIWUPOLKk5bpemBrGYpxMNPlWgG9293iVj+rxRamZ64A
+Bigp1NJ3FsRqzAUKtwvQDWUkdR3RQVMRJoMpgfV+wkeTbWIAhbtmvnp/LqRT5NXpBhA/qnFBAGyK
+7+mIUcQwq7G3sTCiD6xIFWpr3+X5vozA9PRuYSbIFL1jK+4bRV0YdCspyoPRPTUVGSLKIpSvLRhG
+gam7X/Ylz1jNt0PT/yuYn2SYj0UCAwEAAaNTMFEwHQYDVR0OBBYEFKQy+9bKxfBro/dT6iQ1fgFj
+oaQyMB8GA1UdIwQYMBaAFKQy+9bKxfBro/dT6iQ1fgFjoaQyMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggEBAEgmLX2IiLMsFkdntoiMzQnFnKcGTiJFKer8B/2SVF9Ora4LMhYIMqsW
+m5/2UfJJ4aGE54+TSBXbXfR5vKpG5PU7euUVvk7+K+a5S57XWXCnu7JoJA69tcnT9j5YX9aaEtE5
+iZc7JkK0B9DX+2U+wuilVHGIwNP3+Zd3x6j+lUVz+moK+RTKD3eEFyzK2FdBSFYSuTzBuRjCBL9I
+m8aPCzhff3JLX8jnyEI/Q9lPLcHSmz5xJOpYP6MJMF2YXkayiYzyEWoOvWWWygvUyNHvaY1YDVUG
+jbccbcruQs8g+hGeR4gOkltEwuBHd++jk2pissEKLCerLLMNEetoa14xA78=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDBTCCAe2gAwIBAgIJSwAXMC1gYCvpMA0GCSqGSIb3DQEBCwUAMCAxHjAcBgNVBAMTFWNvbi1jZXJ0LmV1LmF1dGgwLmNvbTAeFw0yMTAzMTgwODI2MjRaFw0zNDExMjUwODI2MjRaMCAxHjAcBgNVBAMTFWNvbi1jZXJ0LmV1LmF1dGgwLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALZGyCa4kEFoSvhbX1gxwCq3byJS/uQadZ0i5qfnuabt8AqvKgpOFXt8d95zG/fMnD1XS+UlW4/SH9XwQNj8RiF9FMnmpqTWRbWrp5zkFiwAuYgfPu/c3pNLgfMBj6+4bJliXrh/pBI6bZ7Rpzb8yw6hII5/bhQCYmjOzebY7DygqD/cTM/FP28v4QQ/oYeJSHIhgKEfOc8+fQeC37embWvg3p8EwZQl1mtzBGB1E3zcSObqIqG6Rvyhyn4L7GC6fdKTPkwqYjnaTaP6Uf6GWPsS/UlOoMv1L22VEypDNzxbw+oQF5BtbG4cgeg5ZEMY0ULoKWA4p3mGSJcx/PsKUW0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUSrwdSIICh0yR+d8IYXWYQttwK84wDgYDVR0PAQH/BAQDAgKEMA0GCSqGSIb3DQEBCwUAA4IBAQACiS5aVyigmS83DYoFsxmhkjo16bnSCZhtitNKIIchBki/jqVWDRvD4+DSnmQYOetN52JUgtFfRVnEgIPUtKyE70dJ20LBvd7JTmuiG7FD54k9pf9YHZg4NhjNWh/gfTkUtEpRtcCG2VZN4UFp600puIywmB1cMfuTAlQCn8rhJqbqBaBVsTthXdMI01d0GyzLYXsNXDTK4p9KIT7n1waUw8IWoxlxIF3mB2qSrjAx5/CVCF9WtHuupn0hgqBLrhxwd9TzNr1mFLUGFMLZyvAkvoKg6HMH7jiZpqy14HRnh1ezHGwLI6vP5bJEEP/uqFQ/CCmL2D/F2SdDAT25nnmG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    
+    
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDBTCCAe2gAwIBAgIJSwAXMC1gYCvpMA0GCSqGSIb3DQEBCwUAMCAxHjAcBgNVBAMTFWNvbi1jZXJ0LmV1LmF1dGgwLmNvbTAeFw0yMTAzMTgwODI2MjRaFw0zNDExMjUwODI2MjRaMCAxHjAcBgNVBAMTFWNvbi1jZXJ0LmV1LmF1dGgwLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALZGyCa4kEFoSvhbX1gxwCq3byJS/uQadZ0i5qfnuabt8AqvKgpOFXt8d95zG/fMnD1XS+UlW4/SH9XwQNj8RiF9FMnmpqTWRbWrp5zkFiwAuYgfPu/c3pNLgfMBj6+4bJliXrh/pBI6bZ7Rpzb8yw6hII5/bhQCYmjOzebY7DygqD/cTM/FP28v4QQ/oYeJSHIhgKEfOc8+fQeC37embWvg3p8EwZQl1mtzBGB1E3zcSObqIqG6Rvyhyn4L7GC6fdKTPkwqYjnaTaP6Uf6GWPsS/UlOoMv1L22VEypDNzxbw+oQF5BtbG4cgeg5ZEMY0ULoKWA4p3mGSJcx/PsKUW0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUSrwdSIICh0yR+d8IYXWYQttwK84wDgYDVR0PAQH/BAQDAgKEMA0GCSqGSIb3DQEBCwUAA4IBAQACiS5aVyigmS83DYoFsxmhkjo16bnSCZhtitNKIIchBki/jqVWDRvD4+DSnmQYOetN52JUgtFfRVnEgIPUtKyE70dJ20LBvd7JTmuiG7FD54k9pf9YHZg4NhjNWh/gfTkUtEpRtcCG2VZN4UFp600puIywmB1cMfuTAlQCn8rhJqbqBaBVsTthXdMI01d0GyzLYXsNXDTK4p9KIT7n1waUw8IWoxlxIF3mB2qSrjAx5/CVCF9WtHuupn0hgqBLrhxwd9TzNr1mFLUGFMLZyvAkvoKg6HMH7jiZpqy14HRnh1ezHGwLI6vP5bJEEP/uqFQ/CCmL2D/F2SdDAT25nnmG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://con-cert.eu.auth0.com/logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://con-cert.eu.auth0.com/logout"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://con-cert.eu.auth0.com/login/callback?connection=spid" index="0" isDefault="true"/>
+    
+        <AttributeConsumingService index="0">
+        <ServiceName xml:lang="it">Set 0</ServiceName>
+        <RequestedAttribute Name="name"/>
+        <RequestedAttribute Name="familyName"/>
+        <RequestedAttribute Name="dateOfBirth"/>
+        <RequestedAttribute Name="fiscalNumber"/>
+        <RequestedAttribute Name="email"/>
+        </AttributeConsumingService>
+    
+    </SPSSODescriptor>
+    
+    <Organization>
+        <OrganizationName xml:lang="it">ConCert</OrganizationName>
+        <OrganizationDisplayName xml:lang="it">ConCert</OrganizationDisplayName>
+        <OrganizationURL xml:lang="it">https://con-cert.it</OrganizationURL>
+    </Organization>
+
+    <ContactPerson contactType="other">
+        <Extensions>
+        <spid:VATNumber>IT09293740966</spid:VATNumber>
+        <spid:FiscalCode>09293740966</spid:FiscalCode>
+        <spid:Private/>
+        </Extensions>
+        <EmailAddress>info@blockchainlab.it</EmailAddress>
+        <TelephoneNumber>+39 0984 485890</TelephoneNumber>
+    </ContactPerson>
+
+</EntityDescriptor>

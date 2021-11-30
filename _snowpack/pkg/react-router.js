@@ -1,0 +1,1 @@
+export{R as Redirect,u as useHistory}from"./common/react-router-32bb5653.js";import"./common/index-abdc4d2d.js";import"./common/_commonjsHelpers-4f955397.js";import"./common/index-ad697a84.js";import"./common/polyfill-node:global-21e5c503.js";import"./common/hoist-non-react-statics.cjs-a0c71e88.js";
