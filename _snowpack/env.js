@@ -1,1 +1,1 @@
-export const MODE="production",NODE_ENV="production",SSR=!1;
+export const MODE="production",NODE_ENV="production",SNOWPACK_PUBLIC_IPFS_API="http://localhost:3001",SNOWPACK_PUBLIC_WS_API="ws://localhost:3003/ws",SNOWPACK_PUBLIC_KIND="other",SNOWPACK_PUBLIC_PUBLIC_PASSPHRASE="public",SNOWPACK_PUBLIC_REACT_APP_AUTH0_DOMAIN="con-cert.eu.auth0.com",SNOWPACK_PUBLIC_REACT_APP_AUTH0_CLIENT_ID="V0bul1pPfice8BDuU5q2MdxPGPdByzvP",SSR=!1;
