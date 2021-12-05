@@ -17,7 +17,7 @@ git clone https://github.com/BlockchainLabItalia/concert-be.git
 
 <br>
 
-Aprire il file [`env.js`](./env.js).  
+Aprire il file [`_snowpack/env.js`](./_snowpack/env.js).  
 Modificare il valore di *<dominio_nodo_api>* con il nome del dominio del server che espone le Api della [Blockchain](https://github.com/BlockchainLabItalia/concert-be#NODO_API):
 
 ```
